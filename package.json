@@ -5,6 +5,9 @@
   "name": "pin.eu.com",
   "version": "1.0.0",
   "main": "index.js",
+  "optionalDependencies": {
+    "fsevents": "^2.3.2",
+  },
   "dependencies": {
     "a-sync-waterfall": "^1.0.1",
     "acorn": "^7.4.1",
@@ -60,7 +63,6 @@
     "fill-range": "^7.0.1",
     "finalhandler": "^1.2.0",
     "fs.realpath": "^1.0.0",
-    "fsevents": "^2.3.2",
     "function-bind": "^1.1.1",
     "get-intrinsic": "^1.2.0",
     "glob": "^7.2.3",
