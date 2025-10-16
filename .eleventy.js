@@ -11,7 +11,6 @@ module.exports = function(eleventyConfig) {
 			let grps = p.data.groups;
 			grps.forEach(g => groups.add(g));
 		});
-    console.log(groups);
 		return Array.from(groups);
 	});
 }
