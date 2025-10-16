@@ -1,0 +1,5 @@
+---
+layout: blog-grid.html
+title: Blog
+---
+I must explain to you how all this mistaken idea of denouncing pleasure and praising pain <br>was born and I will give you a complete account of the system

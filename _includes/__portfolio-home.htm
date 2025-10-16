@@ -1,0 +1,39 @@
+<section class="portfolio ">
+	<div class="container">
+		<div class="row mb-5">
+	      	<div class="col-10">
+		        <div class="btn-group btn-group-toggle " data-toggle="buttons">
+		          <label class="btn active ">
+		            <input type="radio" name="shuffle-filter" value="all" checked="checked" />All Projects
+		          </label>
+				  {% for group in collections.groups %}
+		          <label class="btn">
+		            <input type="radio" name="shuffle-filter" value="{{ group }}" />{{ group}}
+		          </label>
+                  {% endfor %}
+		        </div>
+	      	</div>
+    	</div>	
+		<div class="row shuffle-wrapper portfolio-gallery">
+
+		    {% for post in collections.home %}
+	        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[{% for group in post.data.groups %}&quot;{{ group }}&quot;{% if forloop.last != true %},{% endif %}{% endfor %}]">
+		      	<div class="position-relative inner-box">
+		          <div class="image position-relative ">
+	               <img src="{{ post.data.image }}" alt="portfolio-image" class="img-fluid w-100 d-block">
+	                <div class="overlay-box">
+	                  <div class="overlay-inner">
+	                    <a class="overlay-content" href="{{ post.url}}">
+	                      <h5 class="mb-0">{{ post.data.title }}</h5>
+	                      <p>{{ post.data.subtitle }}</p>
+	                    </a>
+	                  </div>
+	                </div> 
+	            </div>
+		      </div>
+	        </div>
+		    {% endfor %}
+
+	    </div>
+	</div>
+</section>

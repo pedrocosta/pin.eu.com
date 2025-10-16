@@ -1,0 +1,17 @@
+module.exports = function(eleventyConfig) {
+  eleventyConfig.addPassthroughCopy("plugins");
+  eleventyConfig.addPassthroughCopy("css");
+  eleventyConfig.addPassthroughCopy("images");
+  eleventyConfig.addPassthroughCopy("js");
+
+	eleventyConfig.addCollection("groups", function(collectionApi) {
+		let groups = new Set();
+		let posts = collectionApi.getFilteredByTag('home');
+		posts.forEach(p => {
+			let grps = p.data.groups;
+			grps.forEach(g => groups.add(g));
+		});
+    console.log(groups);
+		return Array.from(groups);
+	});
+}
