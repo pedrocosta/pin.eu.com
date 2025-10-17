@@ -1,8 +1,8 @@
 module.exports = function(eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("plugins");
-  eleventyConfig.addPassthroughCopy("css");
-  eleventyConfig.addPassthroughCopy("images");
-  eleventyConfig.addPassthroughCopy("js");
+    eleventyConfig.addPassthroughCopy("plugins");
+    eleventyConfig.addPassthroughCopy("css");
+    eleventyConfig.addPassthroughCopy("images");
+    eleventyConfig.addPassthroughCopy("js");
 
 	eleventyConfig.addCollection("groups", function(collectionApi) {
 		let groups = new Set();
