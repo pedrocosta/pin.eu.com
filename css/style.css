@@ -655,6 +655,10 @@ textarea.form-control {
   background: #f44336;
   color: #fff;
 }
+.pagination li a.off:hover {
+  background: transparent;
+  color: transparent;
+}
 
 .sidebar-widget .widget {
   padding-left: 20px;

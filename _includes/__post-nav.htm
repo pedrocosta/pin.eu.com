@@ -2,28 +2,36 @@
 	<div class="col-lg-12">
 		<div class="pagination">
             <ul class="list-inline d-block mx-auto">
-                <li class="list-inline-item">
-                    <a href="#">Prev</a>
-                </li>
-                <li class="active list-inline-item">
-                    <a href="#">
-                        <span>1</span>
+                {% for pageEntry in pagination.pages %}
+                <li class="{% if page.url == pagination.hrefs[ forloop.index0 ] %}active {% endif %}list-inline-item">
+                    <a href="{{ pagination.hrefs[ forloop.index0 ] }}">
+                        <span>{{ forloop.index }}</span>
                     </a>
                 </li>
-                <li class="list-inline-item">
-                    <a href="#">
-                        <span>2</span>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="#">
-                        <span>3</span>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="#">Next</a>
-                </li>
+                {% endfor %}
             </ul>
+            <!--ul class="list-inline d-block mx-auto">
+                {% if pagination.href.first %}
+                <li class="list-inline-item">
+                    <a href="{{ pagination.href.first }}">|&lt;</a>
+                </li>
+                {% endif %}
+                {% if pagination.href.previous %}
+                <li class="list-inline-item">
+                    <a href="{{ pagination.href.previous }}">&lt;</a>
+                </li>
+                {% endif %}
+                {% if pagination.href.next %}
+                <li class="list-inline-item">
+                    <a href="{{ pagination.href.next }}">&gt;</a>
+                </li>
+                {% endif %}
+                {% if pagination.href.last %}
+                <li class="list-inline-item">
+                    <a href="{{ pagination.href.last }}">&gt;|</a>
+                </li>
+                {% endif %}
+            </ul-->
         </div>
 	</div>
 </div>
