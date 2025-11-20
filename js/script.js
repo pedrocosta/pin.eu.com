@@ -38,11 +38,11 @@ AOS.init({
         }); 
 
     $('.owl-carousel').owlCarousel({
-        items:1,
+        items:6,
         loop:true,
         autoplay:true,
         dots:false,
-        autoplayTimeout:8000
+        autoplayTimeout:2000
     });
 
     // Shuffle js filter and masonry

@@ -7,7 +7,7 @@ services:
   - name: Consultoria
     description: Analisamos os seus sistemas, processos e infraestruturas tecnológicas, identificando oportunidades de melhoria e propondo soluções.
     icon: ti-stats-up
-  - name: Formação tecnológica
+  - name: Formação especializada
     description: Damos formação em várias áreas tecnológicas e organizamos acções de formação orientadas por especialistas.
     icon: ti-blackboard
   - name: Gestão de projetos
@@ -29,4 +29,4 @@ services:
     description: Testamos tecnologias, experimentamos alternativas, investigamos possibilidades, comparamos propostas e ajudamos a tomar decisões. 
     icon: ti-search
 ---
-I must explain to you how all this mistaken idea of denouncing pleasure and praising pain <br>was born and I will give you a complete account of the system
+Trabalhamos como uma extensão da sua organização, provendo os produtos <br>e serviços de que precisa. Faça de nós o seu parceiro de confiança!

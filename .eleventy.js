@@ -4,6 +4,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("images");
     eleventyConfig.addPassthroughCopy("js");
     eleventyConfig.addPassthroughCopy("blog/index.html");
+    eleventyConfig.addPassthroughCopy({ "images/favicon.ico": "/" });
 
 	eleventyConfig.addCollection("groups", function(collectionApi) {
 		let groups = new Set();

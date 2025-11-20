@@ -1,0 +1,38 @@
+<!--section class="section service-home border-top">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6">
+				<h2 class="mb-2 ">Core Services.</h2>
+				<p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, totam ipsa quia hic odit a sit laboriosam voluptatem in, blanditiis.</p>
+			</div>
+		</div>
+		
+		<div class="row">
+			{% for srvc in services %}
+			<div class="col-lg-4">
+				<div class="service-item mb-5" data-aos="fade-left" >
+					<i class="{{ srvc.icon }}"></i>
+					<h4 class="my-3">{{ srvc.name }}</h4>
+					<p>{{ srvc.description }}</p>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</section-->
+<section class="section service-home border-top">
+	<div class="container">
+		<div class="row">
+			<div class="owl-carousel">
+				<div><img src="/images/clients/atp.150x150_grey.png"></div>
+				<div><img src="/images/clients/unilabs.150x150_grey.png"></div>
+				<div><img src="/images/clients/stcp.150x150_grey.png"></div>
+				<div><img src="/images/clients/movicel.150x150_grey.png"></div>
+				<div><img src="/images/clients/ccdr-n.150x150_grey.png"></div>
+				<div><img src="/images/clients/portugal.150x150_grey.png"></div>
+				<div><img src="/images/clients/angola.150x150_grey.png"></div>
+				<div><img src="/images/clients/deloitte.150x150_grey.png"></div>
+			</div>
+		</div>
+	</div>
+</section>
