@@ -25,6 +25,6 @@ image:  /images/mapa.png
 
 <a href="mailto:info@pin.eu.com"><i class="ti-email"></i> E-MAIL</a>
 
-<a href="tel:+351962555000"><i class="ti-mobile"></i> PHONE (PORTUGAL) / WHATSAPP</a>
+<a href="tel:+351962555000"><i class="ti-mobile"></i> TELEFONE (PORTUGAL) / WHATSAPP</a>
 
-<a href="tel:+18452882775"><i class="ti-mobile"></i> PHONE (USA)</a>
+<a href="tel:+18452882775"><i class="ti-mobile"></i> TELEFONE (USA)</a>
