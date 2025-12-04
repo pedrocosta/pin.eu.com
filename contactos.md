@@ -23,7 +23,7 @@ image:  /images/mapa.png
 
 ### Entre em contacto
 
-<a href="mailto:info@pin.eu.com"><i class="ti-email"></i> E-MAIL</a>
+<a href="mailto:info@pinnegocios.com"><i class="ti-email"></i> E-MAIL</a>
 
 <a href="tel:+351962555000"><i class="ti-mobile"></i> TELEFONE (PORTUGAL) / WHATSAPP</a>
 
