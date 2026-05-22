@@ -755,12 +755,3 @@ textarea.form-control {
 .footer-widget a:hover {
   color: #f44336;
 }
-
-/* Sugestão do claude.ai */
-/* Portfolio - forçar 3 colunas com Shuffle.js */
-.portfolio-gallery .shuffle-item {
-  width: 33.3333% !important;
-  float: left;
-  box-sizing: border-box;
-  padding: 0 10px;
-}
