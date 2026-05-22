@@ -17,7 +17,7 @@
 		<div class="row shuffle-wrapper portfolio-gallery">
 
 		    {% for post in collections.home %}
-	        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[{% for group in post.data.groups %}&quot;{{ group }}&quot;{% if forloop.last != true %},{% endif %}{% endfor %}]">
+	        <div class="col-lg-4 col-4 mb-4 shuffle-item" data-groups="[{% for group in post.data.groups %}&quot;{{ group }}&quot;{% if forloop.last != true %},{% endif %}{% endfor %}]">
 		      	<div class="position-relative inner-box">
 		          <div class="image position-relative ">
 	               <img src="{{ post.data.image }}" alt="portfolio-image" class="img-fluid w-100 d-block">
