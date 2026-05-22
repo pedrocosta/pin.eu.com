@@ -51,10 +51,7 @@ AOS.init({
 
     var myShuffle = new Shuffle(document.querySelector('.shuffle-wrapper'), {
         itemSelector: '.shuffle-item',
-        buffer: 1,
-            columnWidth: function(containerWidth) {
-                return containerWidth / 3;
-            }
+        buffer: 1
     });
 
     jQuery('input[name="shuffle-filter"]').on('change', function (evt) {
