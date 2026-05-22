@@ -35,8 +35,7 @@ AOS.init({
                     });
                 });
             });
-        }); 
-
+ 
     $('.owl-carousel').owlCarousel({
         items:6,
         loop:true,
@@ -70,5 +69,6 @@ AOS.init({
         });
     });
 
+}); 
 
 })(jQuery);
