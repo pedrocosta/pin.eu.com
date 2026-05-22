@@ -763,3 +763,13 @@ textarea.form-control {
   padding: 10px;
   box-sizing: border-box;
 }
+@media (max-width: 767px) {
+  .mix {
+    width: 100% !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .mix {
+    width: 50% !important;
+  }
+}
