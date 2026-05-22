@@ -755,3 +755,10 @@ textarea.form-control {
 .footer-widget a:hover {
   color: #f44336;
 }
+
+/* a pedido do claude.ia, para 3 colunas no portfolio */
+.shuffle-item {
+  width: 33.3333%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
