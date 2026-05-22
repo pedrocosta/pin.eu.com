@@ -755,4 +755,11 @@ textarea.form-control {
 .footer-widget a:hover {
   color: #f44336;
 }
-/*# sourceMappingURL=style.css.map */
+
+/* Sugestão do claude.ai */
+/* Portfolio - 3 colunas */
+.mix {
+  width: 33.3333% !important;
+  padding: 10px;
+  box-sizing: border-box;
+}
